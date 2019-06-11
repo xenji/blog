@@ -1,0 +1,19 @@
+permalink: ':category/:year/:monthName/:slug'
+categories:
+  - key: 'tech'
+    title: 'Tech'
+  - key: 'leadership'
+    title: 'Leadership'
+authors:
+  - name: 'Mario Mueller'
+    avatar: 'assets/images/avatar.jpg'
+    email: 'mario@xenji.com'
+postPages:
+  author: 'Mario Mueller'
+  layout: single
+  components:
+    - type: pageContent
+    - type: taxonomy
+      taxonomyType: tags
+    - type: taxonomy
+      taxonomyType: categories
