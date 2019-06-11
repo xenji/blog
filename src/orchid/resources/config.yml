@@ -20,7 +20,7 @@ theme:
     - type: 'page'
       title: 'Home'
       url: '/'
-    - type: "wikiSections"
+#    - type: "wikiSections"
     - type: 'taxonomy'
       taxonomyType: 'categories'
       includeTerms: true
@@ -33,12 +33,6 @@ theme:
   sidebar:
     - type: recentPosts
       limit: 3
-      category: gallery
-      noWrapper: true
-      template:
-        - 'includes/postPreview_mini'
-    - type: recentPosts
-      limit: 5
       category: personal
       noWrapper: true
       template:
